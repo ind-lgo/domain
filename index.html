@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leo Bogod </title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Header -->
+<header id="header">
+  <div class="intro text-center">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Leo Bogod</h1>
+            <p>Software Developer </p>
+            <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#page-top">Home</a> </li>
+          <li> <a class="page-scroll" href="#about">About</a> </li>
+          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+                        <li> <a class="page-scroll" href="https://drive.google.com/file/d/1-AG5_OXc0S2-fkr4kHRcoN64e6nmEIHj/view?usp=sharing">Resume</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="data:image/jpeg;base64,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" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <p> Hi, I'm Leo. I'm currently working on League of Legends Application that helps users improve thier gameplay by displaying latest game data and stats.</p>
+
+<br>I prefer ES7 over ES6 .. </br>
+<br>I Enjoy challenges and love problem solving </br>
+
+
+<br>I believe that the best code is the code you don’t have to write..</br> <br></br>
+         
+          <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Skills</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="100"> <span class="percent"></span> </span>
+        <h4>Node.JS</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="100"> <span class="percent"></span> </span>
+        <h4>CSS3</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="100"> <span class="percent"></span> </span>
+        <h4>Java</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="100"> <span class="percent"></span> </span>
+        <h4>React.JS/Redux</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Portfolio</h2>
+      <hr>
+    </div>
+    
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://github.com/LeoBogod22/CarLeasingApp" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Direct-Motor Group</h4>
+                <small>Car Leasing App</small> </div>
+             <a href="https://github.com/LeoBogod22/CarLeasingApp"> <img src="img2.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://github.com/LeoBogod22/textbasedrpg-game" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Text-based RPG game</h4>
+                <small>Text-based RPG game</small> </div>
+             <a href="https://github.com/LeoBogod22/textbasedrpg-game"> <img src="https://raw.githubusercontent.com/LeoBogod22/textbasedrpg-game/master/oie_T0xi6hE2run9.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://github.com/LeoBogod22/Trak" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Trailey</h4>
+                <small>Hiking App</small> </div>
+            <a href="https://github.com/LeoBogod22/Trak">  <img src="img3.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Live chess</h4>
+                <small>Chess</small> </div>
+            <a href="https://github.com/LeoBogod22/chess-app">  <img src="https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=http%3A%2F%2Ftherook.herokuapp.com" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Wheel Of Fortune</h4>
+                <small>App Development</small> </div>
+             <a href="https://github.com/LeoBogod22/hangmanjavascript"> <img src="https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1920x1080&url=https%3A%2F%2Fleobogod22.github.io%2Fhangmanjavascript%2F" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      
+        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://github.com/LeoBogod22/Java-LoL-ping-checker" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Leauge of Legends Ping Checker</h4>
+                <small>Ping Checker</small> </div>
+              <img src="https://raw.githubusercontent.com/LeoBogod22/Java-LoL-ping-checker/master/42858973_1055767081251472_1695515851370790912_n.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+            
+            
+            
+                 <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://github.com/LeoBogod22/Webpage-Capture" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Webpage-Screenshot</h4>
+                <small>Website Image Capturer </small> </div>
+              <img src="http://i.imgur.com/94hDwLg.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://github.com/LeoBogod22/Java-LoL-ping-checker" title="Project description" rel="prettyPhoto">
+              <div class="hover-text2">
+                <h4>Library managment system </h4>
+                <small>Library managmnet system</small> </div>
+              <img src="https://raw.githubusercontent.com/LeoBogod22/Iibrary-Managment-System-/master/all.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Achievements Section -->
+
+<!-- Testimonials Section -->
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Get In Touch</h2>
+        <hr>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-default">Send Message</button>
+        </form>
+        <div class="social">
+          <ul>
+            <li><a href="https://github.com/LeoBogod22?tab=repositories"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/leo-bogod-/"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2019 Leo Bogod Designed by <a href="" rel="nofollow">Leo</a></p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
